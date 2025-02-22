@@ -5,178 +5,209 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Лівеста - реєстрація в компанію, отримати знижку на замовлення">
+    <meta name="keywords"
+        content="LIVESTA, косметика, макіяж, парфумерія, AKTEN, Floslek, Bebak, Alix Avien, Thalia, Лівеста">
     <title>Livesta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles-desktop.css">
+    <link rel="stylesheet" href="./css/styles-mobile.css">
+    <link rel="stylesheet" href="./css/styles-tablet.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.png" alt="логотип" width="184" height="22"></a>
-            <ul>
-                <li><a href="./index.html">Реєстрація</a></li>
-                <li><a href="./index.html">Переваги</a></li>
-                <li><a href="./index.html">Каталог</a></li>
-                <li><a href="./index.html">Подарунки</a></li>
-                <li><a href="./index.html">Бізнес</a></li>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="logo" href="./index.html"><img src="./images/logo.png" alt="логотип" width="184" height="22"></a>
+            <ul class='header-list list'>
+                <li class="header-item"><a class="header-link" href="#registration">Реєстрація</a></li>
+                <li class="header-item"><a class="header-link" href="#advantages">Переваги</a></li>
+                <li class="header-item"><a class="header-link" href="#catalog">Каталог</a></li>
+                <li class="header-item"><a class="header-link" href="#gifts">Подарунки</a></li>
+                <li class="header-item"><a class="header-link" href="#business">Бізнес</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
-                <li><a href="tel:+110001111111">+38 (050) 475-78-42</a></li>
-                <li><a href="mailto:info@devstudio.com">elskalko@gmail.com</a></li>
+            <ul class='header-list list'>
+                <li class="header-tel"><a class="tel-link" href="tel:+110001111111">+38 (050) 475-78-42</a></li>
+                <li class="header-address"><a class="address-link"
+                        href="mailto:elskalko@gmail.com">elskalko@gmail.com</a>
+                </li>
             </ul>
         </address>
     </header>
     <main>
 
         <!----------------------ХИРО---------------------->
-        <h1>Реєстрація в нову млм компанію Лівеста</h1>
-        <button type="button">Реєстрація</button>
+        <h1 class="hero-title">Реєстрація в нову млм компанію Лівеста</h1>
+        <button type="button" class="registration-btn">Реєстрація</button>
 
         <!-----------------------РЕЄСТРАЦІЯ----------------------->
-        <h2>Навіщо потрібна реєстрація</h2>
-        <p>Реєстрація дає право купувати продукцію із асортименту Лівеста зі знижками від 25 до 30% ББ. Бонус бал - це ~
-            40,00 грн за каталогом.
+        <h2 class="reg-title" id="registration">Навіщо потрібна реєстрація</h2>
+        <p class="reg-text">Реєстрація дає право купувати продукцію із асортименту Лівеста зі знижками від 25 до 30% ББ.
+            Бонус бал - це ~ 40,00 грн за каталогом.
             Наприклад, якщо ваше замовлення за цінами каталогу складає 1400 грн (1400/40 = 35 ББ), на нього діятиме
             знижка 27%, тобто до сплати 1022 грн (1400 - 27% = 1022 грн).
             ПАМ'ЯТАЄМО:якщо ви новачок, тільки-но зареєструвалися і зробили своє перше замовлення, ваша перша знижка -
             30% незалежно від суми</p>
-        <ul>
-            <li>
-                <p>25%</p>
-                <p>замовляйте від 0,01 до 29,99 ББ</p>
+        <ul class='discount-list list'>
+            <li class="discount-item">
+                <p class="discount-number">25%</p>
+                <p class="discount-text">замовляйте від 0,01 до 29,99 ББ</p>
             </li>
-            <li>
-                <p>27%</p>
-                <p>замовляйте від 30 до 59,99 ББ</p>
+            <li class="discount-item">
+                <p class="discount-number">27%</p>
+                <p class="discount-text">замовляйте від 30 до 59,99 ББ</p>
             </li>
-            <li>
-                <p>30%</p>
-                <p>замовляйте від 60 ББ і більше</p>
+            <li class="discount-item">
+                <p class="discount-number">30%</p>
+                <p class="discount-text">замовляйте від 60 ББ і більше</p>
             </li>
         </ul>
-        <button type="button">Отримати знижку</button>
+        <button type="button" class="registration-btn">Отримати знижку</button>
 
         <!----------------------ПЕРЕВАГИ---------------------->
-        <h2>Переваги</h2>
-        <p>LIVESTA - нова МЛМ компанія, відкрита в тяжкі для України часи для підтримки українских родин. Лівеста -
+        <h2 class="advantages-title" id="advantages">Переваги</h2>
+        <p class="advantages-text">LIVESTA - нова МЛМ компанія, відкрита в тяжкі для України часи для підтримки
+            українских родин. Лівеста -
             компанія першого вибору як для новачка, так і досвідчених мережевиків, які хочуть зберегти
             здоров'я та красу людини, захистити довкілля</p>
-        <ul>
-            <li>
-                <img src="./images/1.png" alt="" width="44" height="44">
+        <ul class="advantages-list list">
+            <li class="advantages-item">
+                <img class="advantages-pic" src="./images/1.png" alt="" width="44" height="44">
                 </img>
-                <h3>Кращі виробники</h3>
-                <p>LIVESTA співпрацює з найкращими світовими виробниками: AKTEN, BEBAK</p>
+                <h3 class="advantages-title-list">Кращі виробники</h3>
+                <p class="advantages-text">LIVESTA співпрацює з найкращими світовими виробниками: AKTEN, BEBAK</p>
             </li>
-            <li>
-                <img src="./images/2.png" alt="" width="44" height="44">
+            <li class="advantages-item">
+                <img class="advantages-pic" src="./images/2.png" alt="" width="44" height="44">
                 </img>
-                <h3>Безкоштовна реєстрація</h3>
-                <p>Самостійна безкоштовна реєстрація за реферальним посиланням займе лише 2 хв</p>
+                <h3 class="advantages-title-list">Безкоштовна реєстрація</h3>
+                <p class="advantages-text">Самостійна безкоштовна реєстрація за реферальним посиланням займе лише 2 хв
+                </p>
             </li>
-            <li>
-                <img src="./images/3.png" alt="" width="44" height="44">
+            <li class="advantages-item">
+                <img class="advantages-pic" src="./images/3.png" alt="" width="44" height="44">
                 </img>
-                <h3>Безкоштовна доставка</h3>
-                <p>Безкоштовна доставка на
+                <h3 class="advantages-title-list">Безкоштовна доставка</h3>
+                <p class="advantages-text">Безкоштовна доставка на
                     замовлення від 1200 грн до сплати</p>
             </li>
-            <li>
-                <img src="./images/4.png" alt="" width="44" height="44">
+            <li class="advantages-item">
+                <img class="advantages-pic" src="./images/4.png" alt="" width="44" height="44">
                 </img>
-                <h3>Широкий ассортимент</h3>
-                <p>Асортимент налічує понад 1000
+                <h3 class="advantages-title-list">Широкий ассортимент</h3>
+                <p class="advantages-text">Асортимент налічує понад 1000
                     найменувань косметики та товарів для дома</p>
             </li>
-            <li>
-                <img src="./images/5.png" alt="" width="44" height="44">
+            <li class="advantages-item">
+                <img class="advantages-pic" src="./images/5.png" alt="" width="44" height="44">
                 </img>
-                <h3>Прибутковий план розвитку</h3>
-                <p>Маркетинг-план простий і доступний, за класичною схемою</p>
+                <h3 class="advantages-title-list">Прибутковий план розвитку</h3>
+                <p class="advantages-text">Маркетинг-план простий і доступний, за класичною схемою</p>
             </li>
-            <li>
-                <img src="./images/6.png" alt="" width="44" height="44">
+            <li class="advantages-item">
+                <img class="advantages-pic" src="./images/6.png" alt="" width="44" height="44">
                 </img>
-                <h3>Автопрограма або гроші на мрію</h3>
-                <p>В автопрограмі представлений автопарк від Hyundai до Merсedes</p>
+                <h3 class="advantages-title-list">Автопрограма або гроші на мрію</h3>
+                <p class="advantages-text">В автопрограмі представлений автопарк від Hyundai до Merсedes</p>
             </li>
         </ul>
         <!----------------------КАТАЛОГ---------------------->
-        <h2>Каталог - вітрина нашого інтернет-магазина</h2>
-        <p>Кожен каталог діє 28 днів (4 тижні)<br>Каталог № 9<br>
+        <h2 class="catalog-title" id="catalog">Каталог - вітрина нашого інтернет-магазина</h2>
+        <p class="catalog-text">Кожен каталог діє 28 днів (4 тижні)<br>Каталог № 9<br>
             з 5 серпня до 1 вересня</p>
-        <a href="https://online.fliphtml5.com/lldhy/ydlc/"><img src="./images/photo_2024-07-08_16-22-45.jpg" alt=""
-                width="346"></img></a>
+        <a href="https://online.fliphtml5.com/lldhy/ydlc/"><img class="catalog-pic"
+                src="./images/photo_2024-07-08_16-22-45.jpg" alt="" width="346"></img></a>
+        <ol>
+            <li>
+                <p class="catalog-texts">Ви можете вибрати собі товари для особистого використання з гарною економією
+                </p>
+            </li>
+            <li>
+                <p class="catalog-texts">Можете зайнятися продажем цих товарів, суттєво поповнивши сімейний бюджет</p>
+            </li>
+            <li>
+                <p class="catalog-texts">А можете розпочати бізнес з Лівеста та вийти на гарний щомісячний дохід</p>
+            </li>
+        </ol>
         <!----------------------ПОДАРУНКИ---------------------->
-        <h2>Подарунки</h2>
-        <p>Програма для нового консультанта «Привіт, Livesta»</p>
-        <img src="./images/Презентация1.jpg" alt="" width="1170" height="658">
+        <h2 class="gifts-title" id="gifts">Подарунки</h2>
+        <p class="gifts-text">Програма для нового консультанта «Привіт, Livesta»</p>
+        <img class="gifts-pic" src="./images/Презентация1.jpg" alt="" width="1170" height="658">
         </img>
 
         <!----------------------БІЗНЕС---------------------->
-        <h2>Вам точно потрібно у Лівеста</h2>
-        <p>Оберіть хто ви - і отримаєте відповідну бізнес-пропозицію</p>
-        <ul>
-            <li>
-                <img src="./images/мама.jpg" alt="">
-                <p>Якщо Ви молода мама, єдиний дохід якої – допомога на дитину</p>
-                <button type="button">Залишити заявку</button>
+        <h2 class="business-title" id="business">Вам точно потрібно у Лівеста</h2>
+        <p class="business-text">Оберіть хто ви - і отримаєте відповідну бізнес-пропозицію</p>
+        <ul class="business-list list">
+            <li class="business-item">
+                <img class="business-pic" src=" ./images/мама.jpg" alt="">
+                <p class="business-texts">Якщо Ви молода мама, єдиний дохід якої – допомога на дитину</p>
+                <button type="button" class="registration-btn">Залишити заявку</button>
             </li>
-            <li>
-                <img src="./images/офис.jpg" alt="">
-                <p>Якщо Ви офісний працівник без перспектив накопичити на власне житло чи авто</p>
-                <button type="button">Залишити заявку</button>
+            <li class="business-item">
+                <img class="business-pic" src="./images/офис.jpg" alt="">
+                <p class="business-texts">Якщо Ви офісний працівник без перспектив накопичити на власне житло чи авто
+                </p>
+                <button type="button" class="registration-btn">Залишити заявку</button>
             </li>
-            <li>
-                <img src="./images/коллега.jpg" alt="">
-                <p>Якщо Ви колега-мережевик інших компаній і розчарувалися в маркетинг-плані, умовах співпраці та самому
+            <li class="business-item">
+                <img class="business-pic" src="./images/коллега.jpg" alt="">
+                <p class="business-texts">Якщо Ви колега-мережевик інших компаній і розчарувалися в маркетинг-плані,
+                    умовах співпраці та самому
                     продукті</p>
-                <button type="button">Залишити заявку</button>
+                <button type="button" class="registration-btn">Залишити заявку</button>
             </li>
-            <li>
-                <img src="./images/студентка.jpg" alt="">
-                <p>Якщо Ви студентка, якій потрібно вчитися та одночасно заробляти на свої "бажання"</p>
-                <button type="button">Залишити заявку</button>
+            <li class="business-item">
+                <img class="business-pic" src="./images/студентка.jpg" alt="">
+                <p class="business-texts">Якщо Ви студентка, якій потрібно вчитися та одночасно заробляти на свої
+                    "бажання"</p>
+                <button type="button" class="registration-btn">Залишити заявку</button>
             </li>
         </ul>
 
         <!----------------------РОЛІ---------------------->
-        <h2>Бізнес з Лівеста</h2>
-        <p>Обирайте самі, чим займатися в компанії Лівеста*<br>
-            *Всі результати індивідуальні</p>
-        <ul>
-            <li>
-                <h3>Економія</h3>
+        <h2 class="character-title">Бізнес з Лівеста:<br>Обирайте самі заняття по душі*</h2>
+        <p class="character-text">*Всі результати індивідуальні</p>
+        <ul class="character-list list">
+            <li class="character-item">
+                <h3 class="character-title-list">Економія</h3>
                 <img src="./images/вип клиент.jpg" alt="" width="368" height="402">
-                <p>VIP-клієнт із постійним дисконтом</p>
+                <p class="character-texts">VIP-клієнт із постійним дисконтом</p>
             </li>
-            <li>
-                <h3>Додатковий заробіток</h3>
+            <li class="character-item">
+                <h3 class="character-title-list">Додатковий заробіток</h3>
                 <img src="./images/дівчина менеджер.jpg" alt="" width="368" height="402">
-                <p>Менеджер інтернет-магазину</p>
+                <p class="character-texts">Менеджер інтернет-магазину</p>
             </li>
-            <li>
-                <h3>Дохід</h3>
+            <li class="character-item">
+                <h3 class="character-title-list">Дохід</h3>
                 <img src="./images/руководитель.jpg" alt="" width="368" height="402">
-                <p>Керівник структури</p>
+                <p class="character-texts">Керівник структури</p>
             </li>
         </ul>
 
         <!----------------------ПЛАН РОЗВИТКУ---------------------->
-        <h2>План розвитку та успіху Лівеста Україна</h2>
-        <p>Це документ, який повністю описує умови співпраці з компанією, включаючи Статуси, умови їх досягнення,
+        <h2 class="plan-title">План розвитку та успіху Лівеста Україна</h2>
+        <p class="plan-text">Це документ, який повністю описує умови співпраці з компанією, включаючи Статуси, умови їх
+            досягнення,
             винагороди,
             премії та інші умови.</p>
-        <img src="./images/2024-07-16_223106 1.jpg" alt="" width="1170" height="826">
+        <img class="plan-pic" src="./images/2024-07-16_223106 1.jpg" alt="" width="1170" height="826">
 
         <!----------------------БОНУСИ---------------------->
-        <h2>Додаткові бонуси для нових партнерів</h2>
-        <p>Ви тільки-но почали будувати бізнес? А бонуси за досягнення статусів вже є!</p>
+        <h2 class="bonus-title">Додаткові бонуси для нових партнерів</h2>
+        <p class="bonus-text">Ви тільки-но почали будувати бізнес? А бонуси за досягнення статусів вже є!</p>
 
         <table>
             <thead>
-                <tr>
+                <tr class="table-text">
                     <th>Віп-консультант</th>
                     <th>Лідер</th>
                     <th>Старший лідер</th>
@@ -187,7 +218,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="table-text">
                     <td>200</td>
                     <td>400</td>
                     <td>700</td>
@@ -197,26 +228,30 @@
                     <td>21000 (5000+16000)</td>
                 </tr>
                 <tr>
-                    <th colspan="5">Після підтвердження два рази підряд</th>
-                    <th colspan="2">Двома частинами: перша - одразу, друга - після підтвердження статусу 3 із 5 періодів
+                    <th class="table-text" colspan="5">Після підтвердження два рази підряд</th>
+                    <th class="table-text" colspan="2">Двома частинами: перша - одразу, друга - після підтвердження
+                        статусу 3 із 5 періодів
                     </th>
                 </tr>
             </tbody>
         </table>
 
         <!----------------------АВТОБОНУС---------------------->
-        <h2>Автопрограма або гроші на мрію</h2>
-        <p>Після того, як в команді з'являться 2 Директори, 
+        <h2 class="avto-title">Автопрограма або гроші на мрію</h2>
+        <p class="avto-text">Після того, як в команді з'являться 2 Директори, 
             Ви отримаєте Золотий Бонус 40 000 грн і зможете приєднатися до Автопрограми, отримати автомобіль або Гроші
             на мрію</p>
-        <img src="./images/автобонус.jpg" alt="" width="1170" height="597">
+        <img class="avto-pic" src="./images/автобонус.jpg" alt="" width="1170" height="597">
+        <button type="button" class="registration-btn">Хочу авто від Лівеста</button>
 
         <footer>
             <a href="./index.html"><img src="./images/logo.png" alt="логотип" width="184" height="22"></a>
             <address>
-                <ul>
-                    <li><a href="tel:+110001111111">+38 (050) 475-78-42</a></li>
-                    <li><a href="mailto:info@devstudio.com">elskalko@gmail.com</a></li>
+                <ul class='footer-list list'>
+                    <li class="footer-tel"><a class="tel-link" href="tel:+110001111111">+38 (050) 475-78-42</a></li>
+                    <li class="footer-address"><a class="address-link"
+                            href="mailto:elskalko@gmail.com">elskalko@gmail.com</a>
+                    </li>
                 </ul>
             </address>
         </footer>
